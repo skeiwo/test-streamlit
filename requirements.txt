@@ -1,4 +1,4 @@
 pandas
-SQLAlchemy
-psycopg2
+sqlalchemy
+psycopg2-binary
 streamlit
