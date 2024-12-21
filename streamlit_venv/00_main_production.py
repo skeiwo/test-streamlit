@@ -13,7 +13,7 @@ from sqlalchemy import create_engine
 
 # SERVICE ACCOUNT INFO
 # Path to your service account JSON key file
-SERVICE_ACCOUNT_FILE = json.loads(os.getenv("GOOGLE_APPLICATION_CREDENTIALS_JSON"))
+SERVICE_ACCOUNT_FILE = st.secrets["service_account_info"]
 
 # Define the scope
 SCOPES = ['https://www.googleapis.com/auth/drive.file']
