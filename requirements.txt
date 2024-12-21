@@ -1,4 +1,6 @@
+googleapiclient
+google-api-python-client
+google
+io
 pandas
 sqlalchemy
-psycopg2-binary
-streamlit
